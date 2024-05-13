@@ -15,7 +15,15 @@
         {% block content %}
         <p>To jest splik bazowy</p>
         {% endblock content %}
-    </section>    
+    </section>   
+
+    <section>
+        <li><a href="{{url_for('index')}}">Głowna strona</a></li>
+        <li><a href="{{url_for('extract')}}">Ekstrakcja</a></li>
+        <li><a href="{{url_for('products')}}">Produkty</a></li>
+        <li><a href="{{url_for('author')}}">Autor</a></li>
+    </section>
+
     <footer>
         <p>Solomiia Titova, Uniwersytet Ekonomiczny w Krakowie</p>
     </footer>    
